@@ -263,7 +263,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #envelope {
     width: 95vw;
     height: 65vw;
