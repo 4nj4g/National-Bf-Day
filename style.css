@@ -307,6 +307,7 @@ body {
   .letter {
     width: 94%;
     height: 94%;
+    top: 3%;
     font-size: 1.3rem;
   }
 
@@ -332,7 +333,7 @@ body {
     padding: 10px 16px;
     margin: 8px;
     min-width: 130px;
-    top:160px;
+    top:230px;
   }
 
   .heart:before,
