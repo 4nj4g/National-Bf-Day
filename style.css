@@ -307,8 +307,7 @@ body {
  .letter {
     width: 94%;
     height: 94%;
-    top: 0; 
-    transform: translateY(-100px); 
+    top: 2%; 
     font-size: 1.3rem;
   }
 
