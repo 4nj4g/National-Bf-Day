@@ -1,16 +1,30 @@
+body {
+  background-color: #f0e6f6; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;   /* centriraj horizontalno */
+  align-items: center;       /* centriraj vertikalno */
+  height: 100vh;             /* zauzmi celu visinu ekrana */
+}
+
+.envlope-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
 #envelope {
   position: relative;
-  width: 280px;
-  height: 180px;
+  width: 350px;   /* default desktop */
+  height: 220px;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
-  margin-left: auto;
-  margin-right: auto;
-  top: 150px;
   background-color: #d9534f; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
-
 .front {
   position: absolute;
   width: 0;
@@ -264,18 +278,17 @@ body {
 }
 @media (max-width: 600px) {
   #envelope {
-    width: 90vw;         
-    height: 60vw;        
-    top: 80px;            
+    width: 90vw;        /* 90% širine ekrana */
+    height: 60vw;       /* proporcionalna visina */
   }
 
   .letter {
-    font-size: 1.2rem;    
+    font-size: 1.3rem;  
   }
 
   .words.line2,
   .words.line3,
   .words.line4 {
-    font-size: 1.5rem;    
+    font-size: 1.6rem;  
   }
 }
