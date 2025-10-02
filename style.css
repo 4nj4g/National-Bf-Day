@@ -285,7 +285,7 @@ body {
   #envelope {
     width: 85vw;
     height: calc(85vw * 0.65); 
-    top: 160px;
+    top: 200px;
   }
 
   .flap {
@@ -308,7 +308,7 @@ body {
     width: 94%;
     height: 94%;
     top: 0; 
-    transform: translateY(-40px); 
+    transform: translateY(-70px); 
     font-size: 1.3rem;
   }
 
@@ -335,7 +335,7 @@ body {
     padding: 10px 16px;
     margin: 8px;
     min-width: 130px;
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .heart:before,
